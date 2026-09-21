@@ -44,7 +44,19 @@ hmm-financial-markets-thesis/
 │   └── 09_hmm_estimation_and_chapter6_figures.ipynb
 │
 ├── figures/
-│   └── exported figures used in the thesis
+│   ├── fig_1_1_prices.pdf
+    ├── fig_1_2_returns.pdf
+    ├── fig_1_3_vix_volatility.pdf
+    ├── fig_1_4_acf_comparison.pdf
+    ├── fig_1_5_leptokurtosis.pdf
+    ├── fig_1_6a_order_book.pdf
+    ├── fig_1_6bc_asset_equity.pdf
+    ├── fig_2_3_partial_information.pdf
+    ├── fig_6_1_viterbi_regimes_returns.png
+    ├── fig_6_2_posterior_probabilities.png
+    ├── fig_6_3_static_gaussian_vs_hmm_mixture.png
+    ├── fig_6_4_acf_returns.png
+    └── fig_6_5_acf_absolute_returns.png
 │
 └── data/
     └── README.md
