@@ -56,3 +56,27 @@ hidden-markov-models-financial-markets/
     ├── fig_6_3_static_gaussian_vs_hmm_mixture.pdf
     ├── fig_6_4_acf_returns.pdf
     └── fig_6_5_acf_absolute_returns.pdf
+
+---
+
+## Data
+
+The empirical analysis uses daily observations of the S&P 500 Index and, where needed, the VIX Index.
+
+The data are downloaded directly through the `yfinance` Python package, so raw data files are not stored in this repository.
+
+Main tickers:
+
+- S&P 500 Index: `^GSPC`
+- VIX Index: `^VIX`
+
+---
+
+## Requirements
+
+The Python dependencies required to run the notebooks are listed in `requirements.txt`.
+
+To install them, run:
+
+```bash
+pip install -r requirements.txt
