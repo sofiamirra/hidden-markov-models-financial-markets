@@ -3,13 +3,12 @@
 This repository contains the Jupyter notebooks used to produce the figures and empirical results included in the thesis:
 
 **Hidden Markov Models for Capturing Uncertainty in Financial Markets**  
-Bachelor's Thesis in Statistics  
-Bachelor's Degree in Management Engineering  
+Bachelor's Thesis in Statistics - Bachelor's Degree in Management Engineering  
 Politecnico di Torino  
 
 **Candidate:** Sofia Mirra  
 **Supervisor:** Prof. Roberto Fontana  
-**Academic year:** 2026
+**Graduation session:** Autumn, 2026
 
 ---
 
@@ -17,7 +16,7 @@ Politecnico di Torino
 
 The thesis investigates how Hidden Markov Models can be used to represent uncertainty in financial markets through latent volatility regimes.
 
-Financial markets often exhibit non-stationary behavior: return distributions change over time, volatility tends to persist in clusters, and extreme events occur more frequently than a static Gaussian model would suggest. The empirical analysis applies a three-state Gaussian Hidden Markov Model to daily S&P 500 log-returns in order to identify low, medium, and high volatility regimes.
+Financial markets often exhibit non-stationary behavior: return distributions change over time, volatility tends to persist in clusters, and extreme events occur more frequently than a static Gaussian model would suggest. The empirical analysis applies a three-state Gaussian Hidden Markov Model to daily S&P 500 log-returns in order to identify low, medium, and high-volatility regimes.
 
 This repository provides the computational material used to generate the main figures and empirical outputs of the thesis.
 
@@ -56,6 +55,7 @@ hidden-markov-models-financial-markets/
     ├── fig_6_3_static_gaussian_vs_hmm_mixture.pdf
     ├── fig_6_4_acf_returns.pdf
     └── fig_6_5_acf_absolute_returns.pdf
+```
 
 ---
 
@@ -80,3 +80,4 @@ To install them, run:
 
 ```bash
 pip install -r requirements.txt
+```
