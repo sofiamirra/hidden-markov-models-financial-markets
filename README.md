@@ -81,3 +81,9 @@ To install them, run:
 ```bash
 pip install -r requirements.txt
 ```
+
+---
+
+## AI assistance disclosure
+
+ChatGPT and Codex were used as support tools during the final revision stage, mainly for English-language editing and for reviewing the clarity and formatting of Python code comments. All methodological choices, code implementation, empirical interpretation and final content remain the author’s responsibility.
